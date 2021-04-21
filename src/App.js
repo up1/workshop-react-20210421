@@ -1,4 +1,4 @@
-import { Component, useState } from "react";
+import { useState } from "react";
 import Clock from "./components/Clock";
 import Form from "./components/Form";
 import User from "./components/User";
