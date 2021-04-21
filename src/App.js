@@ -10,12 +10,24 @@ class App extends Component {
     { id: 3, name: "User 03", age: 30 },
   ];
 
+  constructor() {
+    super();
+    this.state = { message: "-------" };
+    this.xyz = this.xyz.bind(this);
+  }
+
+  // Callback
+  xyz(input) {
+    this.setState({ message: "New section : " + input });
+  }
+
   render() {
     return (
       <div>
         <User users={this.users} />
         <Clock title="Current data naja = " />
-        <Form />
+        <Form onSayHi={this.xyz} />
+        <p>{this.state.message}</p>
       </div>
     );
   }
