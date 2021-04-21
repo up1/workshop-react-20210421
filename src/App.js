@@ -1,5 +1,6 @@
 import { Component } from "react";
 import Clock from "./components/Clock";
+import Form from "./components/Form";
 import User from "./components/User";
 
 class App extends Component {
@@ -12,6 +13,7 @@ class App extends Component {
           <User info="User 03" />
         </ul>
         <Clock title="Current data naja = " />
+        <Form />
       </div>
     );
   }
