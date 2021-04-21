@@ -1,4 +1,5 @@
 import { Component } from "react";
+import Clock from "./components/Clock";
 import User from "./components/User";
 
 class App extends Component {
@@ -10,6 +11,7 @@ class App extends Component {
           <User info="User 02" />
           <User info="User 03" />
         </ul>
+        <Clock title="Current data naja = " />
       </div>
     );
   }
