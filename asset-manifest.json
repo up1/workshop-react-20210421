@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/workshop-react-20210421/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/workshop-react-20210421/static/js/main.bebc0f9b.chunk.js",
+    "main.js.map": "/workshop-react-20210421/static/js/main.bebc0f9b.chunk.js.map",
+    "runtime-main.js": "/workshop-react-20210421/static/js/runtime-main.2b280854.js",
+    "runtime-main.js.map": "/workshop-react-20210421/static/js/runtime-main.2b280854.js.map",
+    "static/js/2.4bea384c.chunk.js": "/workshop-react-20210421/static/js/2.4bea384c.chunk.js",
+    "static/js/2.4bea384c.chunk.js.map": "/workshop-react-20210421/static/js/2.4bea384c.chunk.js.map",
+    "static/js/3.c33a512a.chunk.js": "/workshop-react-20210421/static/js/3.c33a512a.chunk.js",
+    "static/js/3.c33a512a.chunk.js.map": "/workshop-react-20210421/static/js/3.c33a512a.chunk.js.map",
+    "index.html": "/workshop-react-20210421/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/workshop-react-20210421/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.4bea384c.chunk.js.LICENSE.txt": "/workshop-react-20210421/static/js/2.4bea384c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2b280854.js",
+    "static/js/2.4bea384c.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.bebc0f9b.chunk.js"
+  ]
+}
