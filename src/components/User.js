@@ -6,11 +6,12 @@ import { Component } from "react";
 
 class User extends Component {
   render() {
-    return (
-      <li>
-        {this.props.info}-{this.props.age}
+    const data = this.props.users.map((user) => (
+      <li key={user.id}>
+        {user.name}, {user.age}
       </li>
-    );
+    ));
+    return <ul>{data}</ul>;
   }
 }
 
