@@ -8,17 +8,17 @@ class Form extends Component {
   constructor() {
     super();
     this.state = { data: "" };
-    this.doKey = this.doKey.bind(this);
+    this.doKey1 = this.doKey.bind(this);
   }
 
   doKey(event) {
-    this.setState({ data: this.state.data + event.key });
+    this.setState({ data: event.target.value });
   }
 
   render() {
     return (
       <div>
-        <input type="text" onKeyPress={this.doKey} />
+        <input type="text" onKeyUp={this.doKey1} />
         <p>Hello : {this.state.data}</p>
       </div>
     );
