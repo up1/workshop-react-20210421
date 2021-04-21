@@ -6,7 +6,7 @@ class App extends Component {
     return (
       <div>
         <ul>
-          <User info="User 01" />
+          <User info="User 01" age="30" />
           <User info="User 02" />
           <User info="User 03" />
         </ul>
